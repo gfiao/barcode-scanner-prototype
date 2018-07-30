@@ -30,6 +30,7 @@ public class Controller {
         BufferedImage image = ImageIO.read(bis);
         bis.close();
 
+        System.out.println("Resolution: " + image.getWidth() + "x" + image.getHeight());
         return "Resolution: " + image.getWidth() + "x" + image.getHeight();
     }
 
