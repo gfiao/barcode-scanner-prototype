@@ -1,0 +1,6 @@
+language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: "fec35c8a-776e-4e6d-a13a-f8ed70eff534"
+  app: barcode-scanner-prototype
